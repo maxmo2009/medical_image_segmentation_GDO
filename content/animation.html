@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-.bg {
-    /* The image used */
-    background-image: url("screen3.png");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-</style>
-   <script type="text/javascript">
+    <title>Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript">
         var image1 = new Image()
         image1.src = "animation/1.jpg"
 
@@ -73,16 +55,13 @@ body, html {
         var image17 = new Image()
         image17.src = "animation/17.jpg"
 
-        // var image18 = new Image()
-        // image18.src = "animation/18.jpg"
+        var image18 = new Image()
+        image18.src = "animation/18.jpg"
     </script>
-
 </head>
-<body>
-
-<div class="bg"></div>
-<div id="image" style="position: absolute; left: 240px; top: 80px; overflow: hidden;">
-    <img src="1.jpg" width="1160" height="520" name="slide" style="margin: 0px 0px 0px 0px">
+<body style="background-color: black">
+    <div id="image" style="position: absolute; left: 0px; top: 0px; overflow: hidden;">
+    <img src="1.jpg" width="1550" height="900" name="slide" style="margin: 0px 0px 0px 0px">
     <script type="text/javascript">
         var step = 1
         function slideit() {
@@ -96,6 +75,5 @@ body, html {
         slideit()
     </script>
     </div>
-
 </body>
 </html>
