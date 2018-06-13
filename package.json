@@ -1,0 +1,13 @@
+{
+  "name": "gdotemplate",
+  "version": "1.0.0",
+  "description": "Template App for the Data Observatory, Imperial College London",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Data Science Institute",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
